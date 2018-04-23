@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML</name>
+    <open>1</open>
+
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+
+    <Folder>
+      <name>Example</name>
+      <visibility>1</visibility>
+      <description>Examples of KML file</description>   
+      <Placemark>
+        <name>Liberty Island</name>
+        <visibility>1</visibility>
+        <styleUrl>#transBluePoly</styleUrl>
+        <Polygon>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -74.047260,40.691004,100
+                -74.046058,40.691126,100
+                -74.044539,40.690566,100
+                -74.043848,40.690167,100
+                -74.043474,40.689638,100
+                -74.043452,40.689200,100
+                -74.043601,40.688735,100
+                -74.043945,40.688572,100
+                -74.044363,40.688507,100
+                -74.044728,40.688572,100
+                -74.046241,40.689296,100
+                -74.047185,40.690402,100
+                -74.047260,40.691004,100
+              </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+    </Folder>
+  </Document>
+</kml>
+
+<!--
+
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>The Pentagon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -77.05788457660967,38.87253259892824,100
+            -77.05465973756702,38.87291016281703,100
+            -77.05315536854791,38.87053267794386,100
+            -77.05552622493516,38.868757801256,100
+            -77.05844056290393,38.86996206506943,100
+            -77.05788457660967,38.87253259892824,100
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      <innerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -77.05668055019126,38.87154239798456,100
+            -77.05542625960818,38.87167890344077,100
+            -77.05485125901024,38.87076535397792,100
+            -77.05577677433152,38.87008686581446,100
+            -77.05691162017543,38.87054446963351,100
+            -77.05668055019126,38.87154239798456,100
+          </coordinates>
+        </LinearRing>
+      </innerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>
+-->
