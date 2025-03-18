@@ -6,7 +6,7 @@
 <!-- default badges end -->
 <!-- default file list -->
 
-# Maps for WinForms - How to load Data from a KML File
+# Maps for WinForms - Load Data from a KML File
 
 This example loads vector items from a `KML` file.
 
