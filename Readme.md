@@ -20,7 +20,7 @@ For this, create a [KmlFileDataAdapter](https://documentation.devexpress.com/#Wi
 * [Program.cs](./CS/WinForms_MapControl_KmlFileDataAdapter/Program.cs) (VB: [Program.vb](./VB/WinForms_MapControl_KmlFileDataAdapter/Program.vb))
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-load-data-from-a-kml-file&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-load-data-from-a-kml-file&~~~was_helpful=no)
 
